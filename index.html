@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Aerial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload" onload='startTime()'>
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Mama</h1>
+						<p>Alles &nbsp;&bull;&nbsp; Gute &nbsp;&bull;&nbsp; zum &nbsp;&bull;&nbsp; Muttertag</p>
+						<nav>
+							<ul>
+								<li><a href="#" class="fas fa-female"><span class="label">Mother</span></a></li>
+								<li><a href="#" class="fas fa-coffee"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="fas fa-couch"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="fas fa-birthday-cake"><span class="label">Github</span></a></li>
+								<li><a href="#" class="fas fa-people-carry"><span class="label">Email</span></a></li>
+							</ul>
+							<div id='player'></div>
+							<div id='particles'>
+								<div id='intro'>
+									<div><img src='img/MamselNetLogo.png' style='width:300px; height:300px; opacity:0.7'></div>
+									<!--<div><font face='Montserrat' size='15px'>Mamsel Net</font></div>-->
+									<div id='discord' style ="
+										font-size: 1.5em;
+										font-weight: 900;
+										letter-spacing: -0.035em;
+										line-height: 1em
+									"></div>
+									<div>
+										<p class='loading'>Das Geschenk </p>
+									</div>
+									<div style="font-size:2em">
+										<em>Brunchen gehen, <br/> <br/> wenn es mal wieder möglich ist :) <br/><br/><br/></em>
+									</div>
+									<div id='pressspacebar'><font face='Montserrat' size='4px'>Drücke 2x
+									  <span id='changeColor'>LEERTASTE</span> um die Musik <span id = 'muteStatus'>stummzuschalten</span></div></div></font>
+									<div id='showRealTime'></div>
+									<div id='currentSong'>Oops! Cannot show the current song.</div>
+									<script src='js/synn.js'></script>
+									<script src='js/config.js'></script>
+									<script src='js/music-handler.js'></script>
+								</div>
+							</div> 
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!--<span class="copyright">&copy; MamselNET. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>-->
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
